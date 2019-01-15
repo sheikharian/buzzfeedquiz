@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Buzzfeed Quiz Draft</title>
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC" rel="stylesheet">
-        <link rel="stylesheet" href="buzzfeedstyle.css"/>
-        
-    </head>
-    <body>
-        <h1>Which Gaming Console is Meant for You?</h1>
-        
+
+<head>
+    <title>Buzzfeed Quiz Draft</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans+TC" rel="stylesheet">
+    <link rel="stylesheet" href="buzzfeedstyle.css" />
+
+</head>
+
+<body>
+    <h1>Which Gaming Console is Meant for You?</h1>
+    <div class="q1">
         <p class="question">What is your favorite genre of video games?</p>
         <div class="choices">
             <button class="answer4">Shooters</button>
@@ -16,6 +18,8 @@
             <button class="answer2">Racing</button>
             <button class="answer3">MMORPG</button>
         </div>
+    </div>
+    <div class="q2">
         <p class="question">Which is the closest to your favorite color?</p>
         <div class="choices">
             <button class="answer4">Red</button>
@@ -23,6 +27,8 @@
             <button class="answer3">Yellow</button>
             <button class="answer2">Green</button>
         </div>
+    </div>
+    <div class="q3">
         <p class="question">Which role best suits you?</p>
         <div class="choices">
             <button class="answer3">Ninja</button>
@@ -30,6 +36,8 @@
             <button class="answer4">Knight</button>
             <button class="answer2">Archer</button>
         </div>
+    </div>
+    <div class="q4">
         <p class="question">You're trying to purchase a valuable from a merchant, but they aren't selling it, so you...</p>
         <div class="choices">
             <button class="answer4">Beat em' up and take what you want after.</button>
@@ -37,15 +45,17 @@
             <button class="answer1">Do a job for them so they'll give it to you.</button>
             <button class="answer2">Trade one of your own valuables for the item.</button>
         </div>
-        <div id="end">
+    </div>
+    <div id="end">
         <button id="submit">Click here to get your Answer!</button>
-        
-        <div class="result"></div>
-        
-        </div>
-    </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-    </script>
-    <script src="buzzfeedjava.js">
-        </script>
+    </div>
+    <div class="result">
+    </div>
+    <div id="reset">
+        <button id="startover">Click here to Start Over!</button>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="buzzfeedjava.js"></script>
+
 </html>

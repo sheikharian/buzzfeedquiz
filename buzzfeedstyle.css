@@ -1,34 +1,42 @@
-body{
-    background-color:#FFB4B4;
+body {
+    background-color: #FFB4B4;
 }
+
 h1 {
     font-family: 'Noto Sans TC', sans-serif;
-    color:white;
+    color: white;
 }
+
 p {
     font-family: 'Montserrat', sans-serif;
 }
-button{
-     font-family: 'Noto Sans TC', sans-serif;
-     background-color:#B4FFEC;
+
+button {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #B4FFEC;
 }
-button:hover{
-    background-color:#6CA1CB;
+
+button:hover {
+    background-color: #6CA1CB;
 }
-#reset{
-    color:white;
-    background-color:#3B28F1;
+
+.choices {
+    padding-bottom: 10px;
 }
-.choices{
-    padding-bottom:10px;
+
+#end {
+    margin-top: 15px;
 }
-#end{
-    margin-top:15px;
+
+img {
+    width: 30%;
+    height: 30%;
 }
-img{
-    width:30%;
-    height:30%;
+
+#reset {
+    margin-top: 15px;
 }
-#reset{
-    margin-top:15px;
+
+#startover {
+    background-color: #1A98C8;
 }
